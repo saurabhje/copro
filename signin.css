@@ -1,0 +1,36 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+html{
+    height: 100%;
+	background: #292E49
+}
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+	font-family: montserrat, arial, verdana;
+    color: white;
+    font-size: 30px;
+    gap: 30px;
+    line-height: 44px;
+}
+ul li {
+    list-style: none;
+}
+body h1{
+    margin-left: 2vw;
+}
+
+.button{
+    margin-left: 2.1vw;
+    padding: 5px 10px;
+    width: 60px;
+    height: 10px;
+    font-size: smaller;
+    box-shadow: 0 0 8px 1px rgba(244, 240, 240, 0.4);
+    text-decoration: none;
+    background: #27AE60;
+    color: white;
+    border-radius: 3px;
+    border: solid 1px white;
+}
