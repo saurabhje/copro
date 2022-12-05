@@ -3,14 +3,21 @@ html{
     height: 100%;
 	background: #292E49
 }
+.msform{
+    width: 50vw;
+	margin: 20px 50px;
+    background: white;
+    box-shadow: 0 0 15px 1px rgba(226, 223, 223, 0.4);
+
+}
 body {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
 	font-family: montserrat, arial, verdana;
-    color: white;
-    font-size: 30px;
+    color: rgb(4, 4, 4);
+    font-size: 25px;
     gap: 30px;
     line-height: 44px;
 }
@@ -26,11 +33,15 @@ body h1{
     padding: 5px 10px;
     width: 60px;
     height: 10px;
-    font-size: smaller;
+    font-size: 20px;
     box-shadow: 0 0 8px 1px rgba(244, 240, 240, 0.4);
     text-decoration: none;
     background: #27AE60;
     color: white;
     border-radius: 3px;
     border: solid 1px white;
+}
+hr{
+    opacity: 0.5;
+    width: 90%;
 }
